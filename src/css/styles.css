@@ -1,4 +1,3 @@
-/* Estilos de achievements.html */
 :root {
   --primary-50: #eef8fd;
   --primary-100: #dcf1fa;
@@ -24,7 +23,6 @@
   --secondary-950: #134333;
 }
 
-/* Estilos de index.html */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -50,7 +48,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* Estilos de contact.html */
 :root {
   --primary-color: #1193d4;
   --secondary-color: #15b399;
@@ -60,14 +57,11 @@
   box-shadow: 0 0 0 2px var(--primary-color) !important;
 }
 
-/* --- Animaciones de Transición de Página --- */
 #page-content {
-  /* Animación de entrada por defecto */
   animation: page-fade-in 0.5s ease-out;
 }
 
 #page-content.is-leaving {
-  /* Animación de salida */
   animation: page-fade-out 0.5s ease-in forwards;
 }
 
