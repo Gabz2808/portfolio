@@ -1,238 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container d-flex justify-content-center">
-        <ul class="navbar-nav d-flex gap-3">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#tech"> Tecnologías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Bee28Gabz</title>
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <script src="./src/js/main.js"></script>
+  <!-- Enlace a la hoja de estilos externa -->
+  <link href="./src/css/styles.css" rel="stylesheet" />
+</head>
 
-    <div class="container mb-5">
-      <div class="me">
-        <h1>
-          <b>Soy Gabriel Mairena (Bee28Gabz) <br />Desarrollador full stack</b>
-        </h1>
-        <p>Es un gusto trabajar con usted</p>
-        <div class="mb-5">
-          <a
-            href="https://www.linkedin.com/in/gabriel-mairena-granera-391933245/"
-          >
-            <img
-              src="./src/icons/bxl-linkedin-square.svg"
-              alt="linkedin"
-              class="icons-img"
-          /></a>
-          <a href="https://github.com/Gabz2808">
-            <img
-              src="./src/icons/bxl-github.svg"
-              alt="Github"
-              class="icons-img"
-          /></a>
-
-          <img src="./src/icons/bxl-gmail.svg" alt="Gmail" class="icons-img" />
-        </div>
-      </div>
-
-      <div class="perfil">
-        <img src="./src/img/perfil.png" alt="Gabriel Mairena" />
-      </div>
-    </div>
-    <div  class="container">
-      <div>
-        <h1 class="text-center" id="aboutme">Sobre mi</h1>
-        <p class="text-center">
-          Desarrollador Junior especializado en Java con experiencia en diseño e
-          implementación de aplicaciones web y servicios backend. He trabajado
-          con Spring Boot, bases de datos relacionales y herramientas modernas
-          para garantizar aplicaciones seguras, escalables y eficientes. Mi
-          experiencia incluye el uso de tecnologías como HTML, CSS y JavaScript
-          para crear interfaces dinámicas, así como la generación de reportes
-          personalizados con JS Report. Manejo fluido de herramientas de control
-          de versiones como Git y GitHub, con un enfoque en metodologías ágiles
-          como Scrum. Proactivo, apasionado por la tecnología y orientado a
-          proporcionar soluciones de calidad para mejorar la experiencia del
-          usuario.
-        </p>
-      </div>
-    </div>
-
+<body class="bg-[#0a0f12] text-gray-200" style="font-family: 'Manrope', sans-serif">
   
-        <h1 class="fw-bold text-center mb-5 mt-5" id="tech">Tecnologías</h1>
-        <ul>
-          <li>
-            <img src="./src/icons/bxl-java.svg" alt="Java" class="icons-img" />
-          </li>
-          <li>
-            <img
-              src="./src/icons/bxl-angular.svg"
-              alt="Angular"
-              class="icons-img"
-            />
-          </li>
-          <li>
-            <img src="./src/icons/bxl-git.svg" alt="git" class="icons-img" />
-          </li>
-          <li>
-            <img src="./src/icons/bxl-html5.svg" alt="html" class="icons-img" />
-          </li>
-          <li>
-            <img src="./src/icons/bxl-css3.svg" alt="css" class="icons-img" />
-          </li>
-          <li>
-            <img
-              src="./src/icons/bxl-python.svg"
-              alt="python"
-              class="icons-img"
-            />
-          </li>
-          <li>
-            <img
-              src="./src/icons/bxl-spring-boot.svg"
-              alt="springboot"
-              class=""
-            />
-          </li>
-        </ul>
+  <header data-include="./src/components/header.html">
+  </header>
+  <div id="page-content">
+    <div class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-x-hidden p-4 bg-[#111618]" >
+      <div class="absolute inset-0 z-0 opacity-5">
+        <div class="absolute left-0 top-0 h-32 w-32 rounded-full bg-[#1193d4]/20 blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 h-48 w-48 rounded-full bg-[#63e6be]/20 blur-3xl"></div>
       </div>
-    </div>
-
-<section class="py-5 bg-light">
-  <div class="container px-5 mb-5">
-    <div class="text-center mb-5">
-      <h1 class="display-5 fw-bolder mb-0">
-        <span class=" fw-bold text-center mb-5 d-inline" id="projects">Proyectos</span>
-      </h1>
-    </div>
-    <div class="row gx-5 justify-content-center">
-      <div class="col-lg-11 col-xl-9 col-xxl-8">
-
-        <!-- Project Card 1 -->
-        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 project-card">
-          <div class="card-body p-0">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-8 p-5">
-                <h2 class="fw-bolder">Conexión solidaria</h2>
-                <p>
-                  Es una red social que conecta a emprendedores con inversores.
-                </p>
-                <a href="https://github.com/Gabz2808/red_social_emprendedores" class="btn btn-primary">Ver más</a>
-              </div>
-              <div class="col-md-4">
-                <img class="img-fluid project-img" src="src/img/Projects/red-social-emprendedores.png" alt="Proyecto 1">
-              </div>
-            </div>
-          </div>
+      <main class="z-10 flex h-full grow flex-col items-center justify-center text-center">
+        <div class="max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h1 class="fade-in text-4xl font-extrabold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl" >
+            <span data-translate="home_title_1" class="gradient-text">Full Stack</span> <span data-translate="home_title_2">Developer</span>
+          </h1>
+          <p data-translate="home_subtitle" class="fade-in fade-in-delay-1 mt-6 text-lg font-medium tracking-wide text-gray-300 md:text-xl">Desarrollador de Software | Base de datos | Infraestructura | Redes  </p>
+          <p data-translate="home_description" class="fade-in fade-in-delay-2 mx-auto mt-8 max-w-2xl text-base text-gray-400 sm:text-lg">
+            Innovación y desarrollo de
+            <span class="font-semibold text-white">Sistemas Escalables</span> para llevar tus ideas al siguiente nivel.
+          </p>
+          <button
+            class="fade-in fade-in-delay-2 mt-8 rounded-full bg-gradient-to-r from-[#1193d4] to-[#63e6be] px-6 py-3 text-lg font-semibold text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1193d4]/50"
+            onclick="window.location.href='./about.html'">
+            <span data-translate="home_button">Iniciar</span>
+          </button>
         </div>
-
-        <!-- Project Card 2 -->
-        <div class="card overflow-hidden shadow rounded-4 border-0 project-card">
-          <div class="card-body p-0">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-8 p-5">
-                <h2 class="fw-bolder">Administrador de tareas</h2>
-                <p>
-                  Aplicación web que permite gestionar tareas de forma eficiente.
-                </p>
-                <a href="https://github.com/Gabz2808/task-manager" class="btn btn-primary">Ver más</a>
-              </div>
-              <div class="col-md-4">
-                <img class="img-fluid project-img" src="src/img/Projects/task-manager.png" alt="Proyecto 2">
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      </main>
     </div>
   </div>
-</section>
-<section class="py-5">
-    <div class="container px-5">
-        <!-- Contact form-->
-        <div class="bg-light rounded-4 py-5 px-4 px-md-5 shadow-sm">
-            <div class="text-center mb-5">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                <h1 class="fw-bolder" id="contacto">Contacto</h1>
-                <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-10 col-xl-8"> <!-- Ajuste para hacerlo más grande -->
-                    <form id="contactForm" action="your-endpoint" method="POST">
-                        <!-- Name input-->
-                        <div class="form-floating mb-4">
-                            <input class="form-control form-control-lg" id="name" name="name" type="text" placeholder="Enter your name..." required />
-                            <label for="name">Nombre Completo</label>
-                        </div>
-                        <!-- Email address input-->
-                        <div class="form-floating mb-4">
-                            <input class="form-control form-control-lg" id="email" name="email" type="email" placeholder="name@example.com" required />
-                            <label for="email">Email </label>
-                        </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-4">
-                            <input class="form-control form-control-lg" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" required />
-                            <label for="phone">Número de Teléfono</label>
-                        </div>
-                        <!-- Message input-->
-                        <div class="form-floating mb-4">
-                            <textarea class="form-control form-control-lg" id="message" name="message" placeholder="Enter your message here..." style="height: 12rem" required></textarea>
-                            <label for="message">Mensaje</label>
-                        </div>
-                        <!-- Submit Button-->
-                        <div class="d-grid">
-                            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
+  <!-- Script para cargar componentes -->
+  
+  <footer data-include="./src/components/footer.html">
+    <!-- El contenido del footer se cargará aquí -->
+  </footer>
+</body>
 
-     <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto">
-                        <div class="small m-0">Copyright &copy; Bee28Gabz</div>
-                    </div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-  </body>
 </html>

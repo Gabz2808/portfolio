@@ -1,0 +1,82 @@
+/* Estilos de achievements.html */
+:root {
+  --primary-50: #eef8fd;
+  --primary-100: #dcf1fa;
+  --primary-200: #bde5f6;
+  --primary-300: #9dd8f1;
+  --primary-400: #7dcbed;
+  --primary-500: #5dbfe8;
+  --primary-600: #3daee3;
+  --primary-700: #1193d4;
+  --primary-800: #0e76aa;
+  --primary-900: #0b5980;
+  --primary-950: #073b55;
+  --secondary-50: #f0f9f7;
+  --secondary-100: #e2f3ef;
+  --secondary-200: #c4e7de;
+  --secondary-300: #a7dccb;
+  --secondary-400: #89cfb9;
+  --secondary-500: #6cc2a6;
+  --secondary-600: #4eb593;
+  --secondary-700: #30a880;
+  --secondary-800: #268666;
+  --secondary-900: #1d654d;
+  --secondary-950: #134333;
+}
+
+/* Estilos de index.html */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+.fade-in-delay-1 {
+  animation-delay: 0.2s;
+}
+.fade-in-delay-2 {
+  animation-delay: 0.4s;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #1193d4, #63e6be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Estilos de contact.html */
+:root {
+  --primary-color: #1193d4;
+  --secondary-color: #15b399;
+}
+.form-input:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 2px var(--primary-color) !important;
+}
+
+/* --- Animaciones de Transición de Página --- */
+#page-content {
+  /* Animación de entrada por defecto */
+  animation: page-fade-in 0.5s ease-out;
+}
+
+#page-content.is-leaving {
+  /* Animación de salida */
+  animation: page-fade-out 0.5s ease-in forwards;
+}
+
+@keyframes page-fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes page-fade-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}

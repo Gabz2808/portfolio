@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+  <link as="style"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    onload="this.rel='stylesheet'" rel="stylesheet" />
+  <title>Bee28Gabz</title>
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+  <meta charset="utf-8" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="./src/js/main.js"></script>
+  <link href="./src/css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-[#0a0f12] text-gray-200" style="font-family: 'Manrope', sans-serif">
+    <header data-include="./src/components/header.html">
+  </header>
+  <div id="page-content" class="relative flex h-auto min-h-screen w-full flex-col bg-[#111618] dark group/design-root overflow-x-hidden"
+    style='font-family: Manrope, "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-10 lg:py-20">
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <div class="flex flex-col md:flex-row p-4 @container gap-8 items-center">
+            <div class="flex-shrink-0">
+              <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-40 w-40"
+                style='background-image: url("./src/Images/pfp.jpg");'>
+              </div>
+            </div>
+            <div class="flex flex-col items-center md:items-start justify-center text-center md:text-left gap-2">
+              <p class="text-white text-3xl md:text-4xl font-bold tracking-tight">Gabriel Mairena</p>
+              <p class="text-[#00c9a7] text-lg font-medium" data-translate="about_subtitle">Estudiante de Ingenieria en Sistemas</p>
+              <p class="text-[#9db0b9] text-base font-normal leading-relaxed max-w-xl" data-translate="about_bio">
+                Especializado en desarrollo de aplicativos, con una sólida base en
+                el desarrollo de sistemas y bases de datos. Apasionado por crear soluciones innovadoras y contribuir
+                a proyectos impactantes.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 mt-12">
+            <h2 class="text-white text-3xl font-bold tracking-tight mb-6" data-translate="about_me_title">Acerca de mi</h2>
+            <p class="text-[#9db0b9] text-base font-normal leading-relaxed" data-translate="about_me_text">
+              Soy un ingeniero de sistemas altamente motivado y capacitado con una trayectoria comprobada en el
+              desarrollo full-stack. Mi experiencia abarca varias tecnologías, incluidas marcos frontend como React y
+              Angular, lenguajes backend como Python y Java, y bases de datos sistemas como MySQL y PostgreSQL. Soy
+              experto en diseño, desarrollar e implementar aplicaciones web escalables y eficientes. Mis proyectos
+              académicos me lo han proporcionado con experiencia práctica en escenarios del mundo real, lo que me
+              permite para perfeccionar mis habilidades de resolución de problemas y colaborar eficazmente dentro de los
+              equipos.
+            </p>
+          </div>
+          <div class="p-4 mt-12">
+            <h2 class="text-white text-3xl font-bold tracking-tight mb-6" data-translate="about_tech_title">Habilidades Técnicas</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4">
+              <div
+                class="flex flex-col gap-3 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6 transition-all hover:border-[#00c9a7] hover:bg-[#1f292e]">
+                <div class="text-[#00c9a7]" data-icon="Code" data-size="32px" data-weight="regular">
+                  <svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                    </path>
+                  </svg>
+                </div>
+                <h3 class="text-white text-lg font-bold" data-translate="about_tech_1">Desarrollo Frontend</h3>
+              </div>
+              <div
+                class="flex flex-col gap-3 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6 transition-all hover:border-[#00c9a7] hover:bg-[#1f292e]">
+                <div class="text-[#00c9a7]" data-icon="Database" data-size="32px" data-weight="regular">
+                  <svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M128,56C78.43,56,40,78.33,40,104v48c0,25.67,38.43,48,88,48s88-22.33,88-48V104C216,78.33,177.57,56,128,56Zm0,128c-40.38,0-72-16.75-72-32V124.2c16.34,11.45,41.4,19.8,72,19.8s55.66-8.35,72-19.8V152C200,167.25,168.38,184,128,184Zm0-80c-40.38,0-72-16.75-72-32s31.62-32,72-32,72,16.75,72,32S168.38,104,128,104Z">
+                    </path>
+                  </svg>
+                </div>
+                <h3 class="text-white text-lg font-bold" data-translate="about_tech_2">Desarrollo Backend</h3>
+              </div>
+              <div
+                class="flex flex-col gap-3 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6 transition-all hover:border-[#00c9a7] hover:bg-[#1f292e]">
+                <div class="text-[#00c9a7]" data-icon="Database" data-size="32px" data-weight="regular">
+                  <svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z">
+                    </path>
+                  </svg>
+                </div>
+                <h3 class="text-white text-lg font-bold" data-translate="about_tech_3">Gestor de base de datos</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer data-include="./src/components/footer.html">
+      <!-- El contenido del footer se cargará aquí -->
+    </footer>
+</body>
+
+</html>

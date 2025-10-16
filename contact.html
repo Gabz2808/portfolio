@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+  <link as="style"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    onload="this.rel='stylesheet'" rel="preload" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <title>Bee28Gabz</title>
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="./src/js/main.js"></script>
+  <link href="./src/css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-[#0a0f12] text-gray-200" style="font-family: 'Manrope', sans-serif">
+  <header data-include="./src/components/header.html">
+  </header>
+  <div id="page-content" class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-[#111618]">
+    <div class="flex-grow flex items-center justify-center p-4 sm:p-6 lg:p-8 bg-[#111618]">
+      <div class="w-full max-w-lg mx-auto bg-[#161B22] rounded-xl shadow-2xl overflow-hidden">
+        <div class="p-8 sm:p-10">
+          <h2 class="text-3xl sm:text-4xl font-bold text-center mb-2" data-translate="contact_title">Contacto</h2>
+          <p class="text-center text-gray-400 mb-8" data-translate="contact_subtitle">Construyamos algo increíble juntos.
+
+          </p>
+          <form action="https://formspree.io/f/xeorvnzd" method="POST" class="space-y-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-400 mb-2" for="email" data-translate="contact_email_label">Tu Correo</label>
+              <input
+                class="form-input w-full bg-[#0D1117] border border-gray-700 rounded-lg h-12 px-4 placeholder:text-gray-500 text-white focus:outline-none focus:ring-0 transition-all duration-300"
+                id="email" name="email" type="email" required />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-400 mb-2" for="message" data-translate="contact_message_label">Tu Mensaje</label>
+              <textarea
+                class="form-input w-full bg-[#0D1117] border border-gray-700 rounded-lg p-4 placeholder:text-gray-500 text-white focus:outline-none focus:ring-0 transition-all duration-300 resize-none"
+                id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div>
+              <button
+                class="w-full flex items-center justify-center rounded-lg h-12 px-6 bg-[var(--primary-color)] text-white text-base font-bold tracking-wide hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105"
+                type="submit">
+                <span data-translate="contact_button">Enviar Mensaje</span>
+              </button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer data-include="./src/components/footer.html">
+  </footer>
+</body>
+
+</html>
